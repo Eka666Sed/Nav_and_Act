@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Screen3Activity">
+
+    <TextView
+        android:id="@+id/screen3Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screen 3"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/screen3ButtonToScreen1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:text="To Screen 1" />
+
+    <Button
+        android:id="@+id/screen3ButtonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/screen3ButtonToScreen3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Open Screen 3" />
+
+</LinearLayout>
