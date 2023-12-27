@@ -38,4 +38,12 @@
         android:layout_marginTop="10dp"
         android:text="Open Screen 3" />
 
+    <Button
+        android:id="@+id/screen3ButtonToScreen1WithClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Back to Screen 1" />
+
 </LinearLayout>

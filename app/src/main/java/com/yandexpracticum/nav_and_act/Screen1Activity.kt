@@ -28,4 +28,9 @@ class Screen1Activity : AppCompatActivity(R.layout.activity_screen1) {
         this.startActivity(intent)
     }
 
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+
+        Log.d("NAVEXAMPLE", "Screen 1 -> onNewIntent")
+    }
 }
